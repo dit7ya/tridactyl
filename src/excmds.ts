@@ -140,6 +140,8 @@ import * as hinting from "@src/content/hinting"
 import * as gobbleMode from "@src/parsers/gobblemode"
 import * as nMode from "@src/parsers/nmode"
 
+import * as experimental_ui from "./content/experimental_ui"
+
 ALL_EXCMDS = {
     "": CTSELF,
     ex: CtCmdlineCmds,
@@ -5206,3 +5208,18 @@ export async function elementunhide() {
     elem.className = elem.className.replace("TridactylKilledElem", "")
 }
 // vim: tabstop=4 shiftwidth=4 expandtab
+
+
+/**
+ * TODO Cover the current page in an overlay to prevent clicking on links with the mouse to force yourself to use hint mode. Get rid of it by reloading the page.
+ *
+ * To bring back mouse control, use [[mouse_mode]] or refresh the page.
+ *
+ * Suggested usage: `autocmd DocLoad .* no_mouse_mode`
+ *
+ * "There is no mouse".
+ */
+//#content
+export function experimental_ui_mode() {
+    experimental_ui.experimental_ui()
+}

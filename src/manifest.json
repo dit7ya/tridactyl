@@ -64,7 +64,8 @@
                 "static/css/cleanslate.css",
                 "static/css/content.css",
                 "static/css/hint.css",
-                "static/css/viewsource.css"
+                "static/css/viewsource.css",
+                "static/css/windi.css"
             ],
             "run_at": "document_start",
             "match_about_blank": true

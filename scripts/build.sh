@@ -76,6 +76,12 @@ else
 
 fi
 
+
+# Generate WindiCSS static file
+# FIXME Add Windi CLI to devDependencies
+# TODO Figure out if this should go to the other generation step
+windicss './src/**/*.svelte' -o ./src/static/css/windi.css
+
 # Actually build the thing
 
 mkdir -p buildtemp

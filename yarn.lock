@@ -2297,6 +2297,13 @@ es6-promisify@6.1.1:
   resolved "https://registry.yarnpkg.com/es6-promisify/-/es6-promisify-6.1.1.tgz#46837651b7b06bf6fff893d03f29393668d01621"
   integrity sha512-HBL8I3mIki5C1Cc9QjKUenHtnG0A5/xA8Q/AllRcfiwl2CZFXGK7ddBiCoRwAix4i2KxcQfjtIVcrVbB3vbmwg==
 
+esbuild-svelte@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/esbuild-svelte/-/esbuild-svelte-0.5.1.tgz#b8cdacbd0b5234a20680e928916545273c01fdd1"
+  integrity sha512-df22x5t0zVjp/NVvFK5pF17U6C4A/2Ce1uE6oxk1Y081unR17/9PTZ/kVLlUDH4bgS7rlpFOULVqkawRFrM53w==
+  dependencies:
+    svelte "^3.38.2"
+
 esbuild@^0.12.8:
   version "0.12.8"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.8.tgz#ac90da77cb3bfbf49ab815200bcef7ffe1a3348f"
@@ -6383,6 +6390,11 @@ supports-hyperlinks@^2.0.0:
   dependencies:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
+
+svelte@^3.38.2:
+  version "3.38.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.38.2.tgz#55e5c681f793ae349b5cc2fe58e5782af4275ef5"
+  integrity sha512-q5Dq0/QHh4BLJyEVWGe7Cej5NWs040LWjMbicBGZ+3qpFWJ1YObRmUDZKbbovddLC9WW7THTj3kYbTOFmU9fbg==
 
 symbol-tree@^3.2.2:
   version "3.2.2"
